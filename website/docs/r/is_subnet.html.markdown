@@ -99,7 +99,7 @@ Review the argument references that you can specify for your resource.
 - `resource_group` - (Optional, Forces new resource, String) The ID of the resource group where you want to create the subnet.
 - `routing_table` - (Optional, String) The routing table ID associated with the subnet.
 - `tags`  - (Optional, List of Strings) The tags associated with the subnet.
-- `total_ipv4_address_count` - (Optional, Forces new resource, String) The total number of IPv4 addresses. Either `ipv4_cidr_block` or `total_pv4_address_count` input parameters must be provided in the resource.
+- `total_ipv4_address_count` - (Optional, Forces new resource, Integer) The total number of IPv4 addresses. Either `ipv4_cidr_block` or `total_pv4_address_count` input parameters must be provided in the resource.
 - `vpc` - (Required, Forces new resource, String) The VPC ID.
 - `zone` - (Required, Forces new resource, String) The subnet zone name.
 
